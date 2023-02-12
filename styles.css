@@ -1,0 +1,492 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom:1px solid #fff;
+}
+
+nav .logo{
+    padding:22px 120px;
+    height:80;
+    float: left;
+    font-size:40px;
+    font-weight:bold;
+    color:#fff;
+    
+    
+}
+ nav ul{
+    list-style:none;
+    float: right;
+    margin:0;
+    padding:0;
+    display:flex;
+ }
+
+nav ul li a{
+    line-height: 80px;
+    color:#fff;
+    padding: 12px 30px;
+    text-decoration : none;
+    font-size:14px;
+    font-weight:bold;
+ }
+
+ nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+ } 
+
+
+ .banner-img{
+    width:100%;
+    height: 55vh;
+    background: url("https://alpinecardiology.com/wp-content/uploads/red-apples-EYRNMAT-scaled.jpg");
+    background-size:cover;
+    background-position:center;
+ }
+
+ .banner{
+    
+       
+       padding:160px 200px;
+       height:60;
+       float: left;
+       font-size:20px;
+       font-weight:bold;
+       color:#ece4e4eae;
+    
+        
+    }
+
+.banner h1{
+        font-size:70px;
+        margin-left:50px;
+        margin-bottom:0px;
+
+    }
+
+.banner p{
+    letter-spacing: 5px;
+    font-size:20px;
+    margin-left:50px;
+    margin-top:0px;
+    
+}
+
+.btn {
+
+    width:130px;
+    height:35px;
+    background-color:white;
+    margin-left:50px;
+    color:black;
+    border-radius:20px;
+    border:none;
+    cursor: pointer;
+    
+}
+
+.btn1{
+    width:130px;
+    height:35px;
+    background-color:black;
+    margin-left:10px;
+    color:white;
+    border-radius:20px;
+    border:none;
+    cursor: pointer;
+    
+}
+
+.sec2{
+    
+    padding:160px 200px;
+    height:40vh;
+    background-color:white;
+    color:black;
+     
+}
+    
+.box1{
+    float:left;
+    padding:60px 30px;
+    width:30%;
+    height:40vh;
+    background-color:white;
+    margin-top:-50px;
+    margin-left:-100px;
+}
+
+.head1 {
+    font-size:40px;
+
+}
+.paragraph1 {
+    color:black;
+    margin-top:35px;
+}
+
+.box1 button {
+    width:110px;
+    height:35px;
+    background-color:rgb(103, 199, 47);
+    margin-top:50px;
+    color:white;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+}
+
+
+.box2{
+    float :left;
+    padding:60px 30px;
+    width:30%;
+    height:40vh;
+    background-color:white;
+    margin-top:-50px;
+    margin-left:9%;
+    
+}
+ 
+.box2 h1 {
+    font-size:40px;
+}
+
+.box2 button{
+    width:110px;
+    height:35px;
+    background-color:rgb(103, 199, 47);
+    margin-top:50px;
+    color:white;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+}
+
+.box3{
+    float :right;
+    padding:60px 30px;
+    width:30%;
+    height:40vh;
+    background-color:white;
+    margin-top:-50px;
+    margin-right:-06%;
+    
+}
+ 
+.box3 h1 {
+    font-size:40px;
+}
+
+.box3 button{
+    width:110px;
+    height:35px;
+    background-color:rgb(103, 199, 47);
+    margin-top:50px;
+    color:white;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+}
+
+.sec3{
+  
+    padding:160px 200px;
+    height:35vh;
+    background-color: black;
+     
+  }
+  
+  .box4{
+    padding:60px 30px;
+    width:30%;
+    height:35vh;
+    background-color:black;
+    margin-top:-116px;
+    margin-left: -90px;
+    float: left;
+    color: white;
+  }
+  .box4 h1{
+    font-size: 40px;
+  }
+  .box4 p{
+    font-size: 15px;
+    } 
+
+
+
+  .box5 {
+  
+   padding:60px 30px;
+    width:30%;
+    height:40vh;
+    background-color:black;
+    margin-top:-110px;
+    margin-left: 110px;
+    float: left;
+    color: white;
+  }
+  .box5 h1 {
+    font-size: 40px;
+    
+  }
+  .box5 ul li{
+    font-size: 20px;
+    list-style-type:disc;
+    
+  }
+  .box5 button {
+    width:110px;
+    height:35px;
+    background-color:rgb(100, 166, 61);
+    margin-top:120px;
+    color:white;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+  }
+  .box5 ul {
+    margin-top: 50px;
+    margin-left: -20px;
+  }
+
+  .box6 {
+    float :right;
+    padding:60px 30px;
+    width:30%;
+    height:40vh;
+    background-color:black;
+    margin-top:-110px;
+    margin-right:-06%;
+  }
+  
+  
+.box6 h1{
+    
+        font-size:40px;
+        color:white;
+}
+  
+
+ input {
+    width:400px;
+    border:lpx solid #ddd;
+    padding:7px;
+    outline:0;
+    background-color:rgba(83, 75, 75, 0.63) ;
+    
+
+ }
+  
+.box6 .btn1 {
+    width:110px;
+    height:35px;
+    background-color:rgb(100, 166, 61);
+    margin-top:100px;
+    color:white;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+}
+
+.box6 .btn2 {
+    width:110px;
+    height:35px;
+    background-color:rgba(83, 75, 75, 0.63);
+    margin-top:100px;
+    color:white;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.sec4 {
+    padding:160px 200px;
+    height:15vh;
+    background-color:rgba(0,0,0,0.6);
+    background-image: url(https://as2.ftcdn.net/v2/jpg/04/54/49/21/1000_F_454492110_aPdud8AoZqZvSNZOoRGSsQ81VAHNZVCz.jpg);
+    background-size: cover;
+    background-position: center;
+     
+}
+
+.box7 {
+        padding:60px 30px;
+        width:20%;
+        height:28vh;
+        background-color:rgba(0,0,0,0.7);
+        margin-top:-116px;
+        margin-left: -20px;
+        float: left;
+        color: white;
+}
+
+.box7 h1{
+    border-bottom:2px solid rgb(195, 40, 58);
+    line-height:50px ;
+    padding:10px 10px;
+    margin-top:-20px;
+
+}
+.box7 ul{
+    
+    margin:0;
+    padding:0;
+    display: contents;
+}
+
+.box7 ul li a{
+    line-height: 50px;
+    color:#fff;
+    padding: 10px 10px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    border-bottom:2px solid white;
+ }
+
+.box7 ul li a:hover{
+    background: white;
+    border-radius: 6px;
+    color:black;
+}
+
+.box8 {
+    padding:60px 30px;
+    width:20%;
+    height:28vh;
+    background-color:rgba(0,0,0,0.7);
+    margin-top:-116px;
+    margin-left: 15px;
+    float: left;
+    color: white;
+}
+
+.box8 h1{
+border-bottom:2px solid rgb(195, 40, 58);
+line-height:50px ;
+padding:10px 10px;
+margin-top:-20px;
+
+}
+.box8 ul{
+
+margin:0;
+padding:0;
+display: contents;
+}
+
+.box8 ul li a{
+line-height: 50px;
+color:#fff;
+padding: 10px 10px;
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+border-bottom:2px solid white;
+}
+
+.box8 ul li a:hover{
+background: white;
+border-radius: 6px;
+color:black;
+}
+
+.box9 {
+    padding:60px 30px;
+    width:20%;
+    height:28vh;
+    background-color:rgba(0,0,0,0.7);
+    margin-top:-116px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+}
+
+.box9 h1{
+border-bottom:2px solid rgb(195, 40, 58);
+line-height:50px ;
+padding:10px 10px;
+margin-top:-20px;
+
+}
+.box9 ul{
+
+margin:0;
+padding:0;
+display: contents;
+}
+
+.box9 ul li a{
+line-height: 50px;
+color:#fff;
+padding: 10px 10px;
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+border-bottom:2px solid white;
+}
+
+.box9 ul li a:hover{
+background: white;
+border-radius: 6px;
+color:black;
+}
+
+.box10 {
+    padding:60px 30px;
+    width:20%;
+    height:28vh;
+    background-color:rgba(0,0,0,0.7);
+    margin-top:-116px;
+    margin-left:20px;
+    float: left;
+    color: white;
+}
+
+.box10 h1{
+border-bottom:2px solid rgb(195, 40, 58);
+line-height:50px ;
+padding:10px 10px;
+margin-top:-20px;
+
+}
+.box10 ul{
+
+margin:0;
+padding:0;
+display: contents;
+}
+
+.box10 ul li a{
+line-height: 50px;
+color:#fff;
+padding: 10px 10px;
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+border-bottom:2px solid white;
+}
+
+.box10 ul li a:hover{
+background: white;
+border-radius: 6px;
+color:black;
+}
+
+
